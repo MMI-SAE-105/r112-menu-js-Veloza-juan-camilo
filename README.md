@@ -1,6 +1,6 @@
-- nom :
-- prénom :
-- URL Netlify :
+- nom : Veloza Arcila
+- prénom :Juan Camilo
+- URL Netlify : https://frolicking-tiramisu-cfe2b3.netlify.app
 
 # Travail
 
