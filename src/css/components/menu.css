@@ -8,7 +8,7 @@ On ajoute les propriétés "visibility: hidden" et "opacity: 0" pour masquer le 
   background-color: white; /* Définit la couleur de fond du menu en blanc : https://developer.mozilla.org/fr/docs/Web/CSS/background-color */
   display: flex; /* Utilise Flexbox pour la mise en page des éléments enfants : https://developer.mozilla.org/fr/docs/Web/CSS/display-inside#flex */
   top: 0; /* Positionne le menu en haut de la page : https://developer.mozilla.org/fr/docs/Web/CSS/top */
-  bottom: 0;; /* Étend le menu jusqu'en bas de la page */
+  bottom: 0;/* Étend le menu jusqu'en bas de la page */
   left: 0; /* Positionne le menu à gauche de la page */
   right: 0; /* Étend le menu jusqu'à droite de la page */
   transition: all 0.4s ease-in-out /* Définit une transition de 0.4 secondes pour toutes les propriétés, avec un effet d'accélération et de décélération : https://developer.mozilla.org/fr/docs/Web/CSS/transition */
@@ -16,7 +16,7 @@ On ajoute les propriétés "visibility: hidden" et "opacity: 0" pour masquer le 
 /* On se sert de Javascript pour gérer l'ouverture et la fermeture du menu avec l'attribut "aria-hidden" */
 .menu[aria-hidden="false"] {
  visibility: visible; /* Rend le menu visible */
-  opacity: 0;; /* Rend le menu complètement opaque */
+opacity: 1; /* Rend le menu complètement opaque */
 }
 
 /* On ajoute une classe sur le body pour empêcher le scroll lorsque le menu est ouvert */
@@ -35,7 +35,7 @@ On ajoute les propriétés "visibility: hidden" et "opacity: 0" pour masquer le 
 /*
   "aria-expanded" géré par JavaScript pour l'ouverture et la fermeture.
  */
-.menu-btn[aria-expanded="true"] {
+.menu-btn[aria-expanded="false"] {
   transform: rotate(
     90deg
   ); /* Fait pivoter le bouton de menu de 90 degrés lorsqu'il est en état "expanded" */
