@@ -28,7 +28,7 @@ opacity: 1; /* Rend le menu complètement opaque */
 .menu-btn {
   position: relative; /* Positionne le bouton par rapport à son conteneur parent */
   z-index: 3; /* Assure que le bouton est au-dessus des autres éléments */
-  width: 30px; /* Définit la largeur du bouton à 30px */
+  width: 45px; /* Définit la largeur du bouton à 30px */
   transition: all 0.4s ease-in-out; /* Ajoute une transition de 0.4 secondes pour toutes les propriétés, avec un effet d'accélération et de décélération */
 }
 
